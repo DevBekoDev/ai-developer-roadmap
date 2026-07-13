@@ -50,6 +50,7 @@ else:
 def calculate_accuracy(correct_predictions: int,
                        total_predictions: int,
                        ) -> float:
+    """Determain the accuracy of the model prediciton"""
     if total_predictions <= 0 :
         return 0.0
     if correct_predictions < 0:
@@ -84,6 +85,7 @@ def estimate_training_time(
         number_of_epochs: int,
         minutes_per_epoch: float,
 ) -> float:
+    """Calculate the time to finish training the model on all epoch"""
     if number_of_epochs <=0 or minutes_per_epoch <= 0:
         return 0.0
     

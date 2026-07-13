@@ -76,6 +76,7 @@ def calculate_progress(
         completed_hours: float,
         target_hours: float
 ) -> float:
+    """Calculate study progress"""
     if target_hours < 0:
         return 0.0
     
@@ -104,6 +105,7 @@ else:
 """Calculate skill level."""
 
 def classify_skill_level(score:int) -> str:
+    """Determain the skill level based on scores"""
     if score >10 or score <0:
         return "Invalid score"
     
