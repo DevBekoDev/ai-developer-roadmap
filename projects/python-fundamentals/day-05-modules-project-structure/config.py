@@ -1,0 +1,5 @@
+import os
+
+
+INPUT_FILENAME = os.environ["CSV_INPUT_FILENAME"]
+OUTPUT_FILENAME = os.environ["CSV_OUTPUT_FILENAME"]
