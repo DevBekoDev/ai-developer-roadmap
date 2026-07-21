@@ -1,0 +1,4 @@
+AI engineering combines software engineering and artificial intelligence.
+Python is commonly used for AI development.
+Clean code makes AI systems easier to maintain.
+Object-oriented programming helps organize larger applications.
